@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+    padding: 0;
+     
+}
+header{	
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	border: none;	
+}
+body{
+	font-family: monospace;
+	background-image: linear-gradient(to right,pink,white,violet);
+    background-size: cover;
+	background-position: left;
+	box-sizing: border-box;
+	border: none;
+}
+  .button{
+  	margin-top: 50px;
+  	margin-left: 50px;
+  	line-height: 25px;
+  	padding: 10px 20px;
+  }
+  .btn{
+    color: rgb(95, 66, 66);
+  	border: 1px solid #303030FF;
+  	padding: 10px 30px;
+  	color: #303030FF;
+  	text-decoration: blink;
+  	margin-right: 2px;
+  	font-size: 15px;
+  	text-transform: uppercase;
+  }
+  .signin
+  {
+  	background-color: rgb(161, 176, 226);
+  	font-family: monospace;
+  	border-radius: 8px;
+  }
+  .btn:hover{
+  	background-color: rgb(167, 29, 29);
+   border: 1px solid white;
+   transition: all 0.5s ease-in;
+  }
+  .form_body
+  { margin-top: 100px;
+  	margin-left: 30px;
+  	background-size: 100hv;
+  }
+   h1{
+  	font-style: italic;
+  	float: center;
+  	width: 300px;
+  	height: auto;
+  	position: absolute;
+    top: 4%;
+  	left: 35%;
+  	transform: translate(-50%-50%);
+  	font-size: 28px;
+  	font-family:Algerian;
+  	color: rgb(180, 43, 43);
+  }
+  h2{
+      float: left;
+  }
+  form label{ 	
+  	text-align: left;
+  	color: rgb(131, 56, 56);
+    cursor: pointer;
+    text-align: left;
+  }
+  input[type="text"]{
+    color: #303030;
+    font-weight: bold;
+    background: transparent;
+    margin: 2.5px;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+    margin-left: 50px;
+}
+ .name  input[type="text"] label
+ {
+     font-size: 15px;
+     text-align: left;
+
+ }
+ table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	border-spacing: 5px;
+  }
+  .table
+  {
+	  margin-top: 100px;
+	  margin-left: 200px;
+	  width: 80px;
+  
+  }

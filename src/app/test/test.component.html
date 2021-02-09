@@ -1,0 +1,41 @@
+
+<header>
+ <h1>Register</h1><br> 
+</header>
+           <div>
+            
+            <input type="text" [(ngModel)]="name" placeholder="name" />
+            <input type="text" [(ngModel)]="email" placeholder="email" />
+            <input type="text" [(ngModel)]="pnumber" placeholder="pnumber" />
+            <input type="text" [(ngModel)]="password" placeholder="password" />
+           
+            <div class="button" >
+           
+                <a href="" (click)="buttonClicked()" class="btn signin" id="btn" value="save" >SAVE</a>
+                <a href="" (click)="buttonClicked()" class="btn signin" id="btn" value="update" >UPDATE</a>
+                <a href="" (click)="buttonClicked()" class="btn signin" id="btn" value="delete" >DELETE</a>
+                
+            </div>   
+    </div>
+           <div class="container">
+            <table class="table table-responsive table-striped"style="width:50%" id="show" >
+                <tr>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>pnumber</th>
+                    <th>password</th>
+                  </tr>
+
+                <tr *ngFor="let row of rows">
+                    <td>{{row.name}}</td>
+                    <td>{{row.email}}</td>
+                    <td>{{row.pnumber}}</td>
+                    <td>{{row.password}}</td>
+                  </tr>
+                </table>
+              
+               
+        
+              	
+
+
